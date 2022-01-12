@@ -1,6 +1,8 @@
 package factorial
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestFactorial(t *testing.T) {
 	cases := []struct {
@@ -30,14 +32,28 @@ func TestFactorial(t *testing.T) {
 	}
 }
 
-func BenchmarkFactorialIterative(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		FactIterative(17)
+var table = []struct {
+	desc  string
+	input int
+}{
+	{"factorial for 0", 0},
+	{"factorial for 1", 1},
+	{"factorial of 13", 13},
+	{"factorial of 6", 6},
+}
+
+func BenchmarkFactIterative(b *testing.B) {
+	for _, v := range table {
+		for i := 0; i < b.N; i++ {
+			FactIterative(v.input)
+		}
 	}
 }
 
-func BenchmarkFactorialRecursive(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		FactRecursive(17)
+func BenchmarkFactRecursive(b *testing.B) {
+	for _, v := range table {
+		for i := 0; i < b.N; i++ {
+			FactRecursive(v.input)
+		}
 	}
 }
