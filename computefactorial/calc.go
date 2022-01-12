@@ -1,5 +1,11 @@
 package factorial
 
+/*
+    compute Factorial in iterative manner
+	Args : input number
+	returns: Factorial
+*/
+
 func FactIterative(num int) uint {
 	var fact uint = 1
 
