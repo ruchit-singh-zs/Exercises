@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5356d0-0a61-491b-bba2-96bda5cb43f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../employee/empAge_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prime/prime_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bob/bobreply.go" beforeDir="false" afterPath="$PROJECT_DIR$/../bob/bobreply.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bob/bobreply_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../bob/bobreply_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/empcode.go" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/empAge.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/empcode_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leap-year/yearcheck.go" beforeDir="false" afterPath="$PROJECT_DIR$/../leap-year/yearcheck.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leap-year/yearcheck_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../leap-year/yearcheck_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pascals/triangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pascals/triangle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pascals/triangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pascals/triangle_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prime/compute.go" beforeDir="false" afterPath="$PROJECT_DIR$/../prime/prime.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prime/compute_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triangle/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/../triangle/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../triangle/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../triangle/type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twofer/compute.go" beforeDir="false" afterPath="$PROJECT_DIR$/../twofer/compute.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../twofer/compute_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../twofer/compute_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="6c5356d0-0a61-491b-bba2-96bda5cb43f0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
