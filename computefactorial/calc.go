@@ -14,9 +14,14 @@ func FactIterative(num int) uint {
 	for i := 1; i <= num; i++ {
 		fact = fact * uint(i)
 	}
-
 	return fact
 }
+
+/*
+    compute Factorial in recursive manner
+	Args : input number
+	returns: Factorial
+*/
 
 func FactRecursive(num int) uint {
 	if num < 0 {

@@ -35,6 +35,7 @@ func BenchmarkFactorialIterative(b *testing.B) {
 		FactIterative(17)
 	}
 }
+
 func BenchmarkFactorialRecursive(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		FactRecursive(17)
