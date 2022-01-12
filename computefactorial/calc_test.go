@@ -32,18 +32,18 @@ func TestFactorial(t *testing.T) {
 	}
 }
 
-var table = []struct {
-	desc  string
-	input int
-}{
-	{"factorial for 0", 0},
-	{"factorial for 1", 1},
-	{"factorial of 13", 13},
-	{"factorial of 6", 6},
-}
-
 func BenchmarkFactIterative(b *testing.B) {
-	for _, v := range table {
+	benchCases := []struct {
+		desc  string
+		input int
+	}{
+		{"factorial for 0", 0},
+		{"factorial for 1", 1},
+		{"factorial of 13", 13},
+		{"factorial of 6", 6},
+	}
+
+	for _, v := range benchCases {
 		for i := 0; i < b.N; i++ {
 			FactIterative(v.input)
 		}
@@ -51,7 +51,17 @@ func BenchmarkFactIterative(b *testing.B) {
 }
 
 func BenchmarkFactRecursive(b *testing.B) {
-	for _, v := range table {
+	benchCases := []struct {
+		desc  string
+		input int
+	}{
+		{"factorial for 0", 0},
+		{"factorial for 1", 1},
+		{"factorial of 13", 13},
+		{"factorial of 6", 6},
+	}
+
+	for _, v := range benchCases {
 		for i := 0; i < b.N; i++ {
 			FactRecursive(v.input)
 		}

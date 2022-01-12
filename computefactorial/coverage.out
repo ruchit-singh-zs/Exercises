@@ -1,0 +1,13 @@
+mode: set
+exercises/computefactorial/calc.go:9.34,12.13 2 1
+exercises/computefactorial/calc.go:16.2,16.14 1 1
+exercises/computefactorial/calc.go:20.2,20.28 1 1
+exercises/computefactorial/calc.go:23.2,23.13 1 1
+exercises/computefactorial/calc.go:12.13,14.3 1 1
+exercises/computefactorial/calc.go:16.14,18.3 1 1
+exercises/computefactorial/calc.go:20.28,22.3 1 1
+exercises/computefactorial/calc.go:32.34,33.13 1 1
+exercises/computefactorial/calc.go:37.2,37.26 1 1
+exercises/computefactorial/calc.go:41.2,41.41 1 1
+exercises/computefactorial/calc.go:33.13,35.3 1 1
+exercises/computefactorial/calc.go:37.26,39.3 1 1
